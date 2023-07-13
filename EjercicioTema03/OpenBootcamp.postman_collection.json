@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "eccfcf87-fce5-452f-8410-059ca2466685",
+		"name": "OpenBootcamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18337845"
+	},
+	"item": [
+		{
+			"name": "ListaDeUsuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/bootcampers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Manuel\",\r\n    \"valor\":100\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/bootcampers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
